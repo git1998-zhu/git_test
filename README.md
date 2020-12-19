@@ -42,8 +42,6 @@ git push 推送到云端 （你开发的模块已经在云端了， 别人也可
 
 切换到test分支 git checkout test1
 
-
-
 拉取代码： git pull origin test1
 
 开发
@@ -57,7 +55,8 @@ git commit -m "注释"
 git push origin test1 推送到对应分支到云端
 
 
-
+合并分支
+git merge test1
 
 
 冲突产生 ： 别人开发代码提交到云端， 你没有拉取最新代码就git push ， 就会因为版本不一致，产生冲突
