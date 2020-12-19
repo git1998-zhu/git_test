@@ -60,5 +60,9 @@ git push origin test1 推送到对应分支到云端
 
 
 
+冲突产生 ： 别人开发代码提交到云端， 你没有拉取最新代码就git push ， 就会因为版本不一致，产生冲突
 
+解决 ： git pull 拉去最新代码，  商量，删除=====HEADe之类得没用得东西
+
+git push
 
